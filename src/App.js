@@ -9,8 +9,10 @@ import LoadingBar from 'react-top-loading-bar';
 const App=()=> {
   const apiKey=process.env.REACT_APP_API_KEY;
   const [progress, setProgress] = useState(0);
-  const pageSize=5;
+  const pageSize=6;
     return (
+      <div>
+
       <BrowserRouter>
         <NavBar/>
         <LoadingBar color='#f11946'  progress={progress} />
@@ -26,6 +28,7 @@ const App=()=> {
         <Route path="/about" element={<About/>}/>
       </Routes>
     </BrowserRouter>
+      </div>
       
     )
 }
