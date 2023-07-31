@@ -9,7 +9,6 @@ import LoadingBar from 'react-top-loading-bar';
 const App=()=> {
   const apiKey=process.env.REACT_APP_API_KEY;
   const [progress, setProgress] = useState(0);
-  setProgress(progress);
   const pageSize=5;
     return (
       <BrowserRouter>
