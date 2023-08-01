@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+# Scrapie News Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Scrapie News is a web application that provides real-time news results to its users. With an intuitive user interface and seamless navigation, users can stay updated with the latest news from various categories. The application fetches news data using the NewsAPI.org API, allowing users to access a wide range of news articles.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Introduction](#introduction)
+- [Features](#features)
+- [Screenshot](#screenshot)
+- [Demo](#demo)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
 
-### `npm start`
+## Introduction
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The Scrapie News web application aims to deliver a convenient platform for users to access real-time news articles on various topics. It provides an easy-to-use interface, enabling users to explore different categories and read more about the news articles they find interesting.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- Real-time news updates.
+- News articles categorized for easy navigation.
+- Detailed news cards displaying images, descriptions, headings, sources, authors, and published timestamps.
+- "Read More" button for accessing the full article.
+- Loading bar to indicate ongoing data retrieval.
+- Infinite scroll for automatic fetching of new news articles as the user scrolls down.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Screenshot
 
-### `npm run build`
+![Scrapie News Screenshot](https://github.com/Akanshu-stark/Scrapie-News/assets/69504019/349894a0-7561-4e42-ad35-5a9a0f081d6c)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Demo
+[![Video](https://img.youtube.com/vi/Nqy60s7pSyA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Nqy60s7pSyA)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Installation
 
-### `npm run eject`
+To run the Scrapie News web application locally, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   git clone https://github.com/Akanshu-stark/Scrapie-News.git
+   cd scrapie-news
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2. Install the required dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Obtain an API key from NewsAPI.org by signing up on their website.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Create a `.env` file in the root directory of the project and add the following:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```dotenv
+   REACT_APP_NEWS_API_KEY=your_news_api_key_here
+   ```
 
-### Code Splitting
+5. Start the development server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+   ```bash
+   npm start
+   ```
 
-### Analyzing the Bundle Size
+6. The application will be accessible at `http://localhost:3000`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Usage
 
-### Making a Progressive Web App
+1. Upon accessing the Scrapie News web application, users will be presented with real-time news articles.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. To view news articles from a specific category, click on the corresponding category in the navigation bar.
 
-### Advanced Configuration
+3. Each news article is displayed as a card containing the headline, image, description, source, author, and published timestamp.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. To read the full article, click on the "Read More" button on any news card.
 
-### Deployment
+5. As users scroll down the page, the application will automatically fetch new news articles using infinite scroll.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Technologies Used
 
-### `npm run build` fails to minify
+- React.js
+- Bootstrap
+- NewsAPI.org API
+- HTML5
+- CSS3
+- JavaScript
+- JSX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contributing
+
+Contributions to Scrapie News are always welcome! If you have any bug fixes, enhancements, or new features in mind, please open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
+
+Thank you for using Scrapie News! If you have any questions or feedback, please feel free to get in touch with us. Happy reading!
