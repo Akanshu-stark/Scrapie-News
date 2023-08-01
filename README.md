@@ -32,8 +32,7 @@ The Scrapie News web application aims to deliver a convenient platform for users
 ![Scrapie News Screenshot](https://github.com/Akanshu-stark/Scrapie-News/assets/69504019/349894a0-7561-4e42-ad35-5a9a0f081d6c)
 
 ## Demo
-
-[![Watch the video](https://img.youtube.com/vi/Nqy60s7pSyA/hqdefault.jpg)](https://www.youtube.com/embed/Nqy60s7pSyA)
+[![Video](https://img.youtube.com/vi/Nqy60s7pSyA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Nqy60s7pSyA)
 
 
 ## Installation
