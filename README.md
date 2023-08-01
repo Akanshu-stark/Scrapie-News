@@ -7,6 +7,7 @@ Scrapie News is a web application that provides real-time news results to its us
 - [Introduction](#introduction)
 - [Features](#features)
 - [Screenshot](#screenshot)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies Used](#technologies-used)
@@ -29,6 +30,10 @@ The Scrapie News web application aims to deliver a convenient platform for users
 ## Screenshot
 
 ![Scrapie News Screenshot](https://github.com/Akanshu-stark/Scrapie-News/assets/69504019/349894a0-7561-4e42-ad35-5a9a0f081d6c)
+
+## Demo
+
+[![Watch the video](https://img.youtube.com/vi/Nqy60s7pSyA/hqdefault.jpg)](https://www.youtube.com/embed/Nqy60s7pSyA)
 
 
 ## Installation
