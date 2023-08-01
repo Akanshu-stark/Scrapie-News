@@ -38,7 +38,7 @@ To run the Scrapie News web application locally, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/scrapie-news.git
+   git clone https://github.com/Akanshu-stark/Scrapie-News.git
    cd scrapie-news
    ```
 
